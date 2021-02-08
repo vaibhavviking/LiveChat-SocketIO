@@ -1,4 +1,4 @@
-const socket = io('https://pacific-hollows-99691.herokuapp.com');
+const socket = io('https://livechat-socketio.herokuapp.com/');
 
 const form = document.getElementById('send-container');
 const messageInput = document.getElementById('messageInp');
