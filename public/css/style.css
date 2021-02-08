@@ -1,6 +1,9 @@
 body{
     height: 100vh;
-    background-image: linear-gradient(rgb(255, 255, 255), rgb(109, 39, 239));
+    background-color: black;
+    opacity: 0.8;
+    background-image: url('../mediterranean-sea.jpg');
+    background-size: cover;
 }
 
 .logo{
@@ -18,7 +21,8 @@ h1{
 .container{
     max-width: 955px;
     border: 2px solid black;
-    border-radius: 13px;
+    background-color: white;
+    box-shadow: 0px 0px 40px;
     margin: auto;
     height: 60vh;
     padding: 33px;
@@ -27,12 +31,13 @@ h1{
 }
 
 .message{
-    background-color: rgb(211, 204, 204);
+    background-color: black;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     width: 24%;
     padding: 10px;
     margin: 17px 12px;
     border: 2px solid black;
-    border-radius: 10px;
 }
 .left{
     float: left;
@@ -57,7 +62,6 @@ h1{
 #messageInp{
     width: 80%;
     border: 2px solid black;
-    border-radius: 6px;
     height: 34px;
     font-size: 22px;
 }
@@ -67,6 +71,6 @@ h1{
     width: 9%;
     cursor: pointer;
     border: 2px solid black;
-    border-radius: 6px;
+ 
     height: 34px;
 }
